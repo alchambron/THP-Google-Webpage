@@ -1,17 +1,112 @@
 head {
-  background-size: auto;
-  font-family: Arial, sans-serif;
-
+  font-family:  Arial, sans-serif;
 }
 
 a {
   color: white;
   text-decoration: none;
+  }
+
+p {
+  color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(32, 33, 36);
+}
+
+header {
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  margin-top: auto;
+}
+
+#pp img {  
+  max-height: 48px;
+  max-width: 48px;
+  height: 48px;
+  width: 48px;
+  border-radius: 30px;
+}
+
+#appg {
+  fill: white;
+}
   
+main {
+  display: flex;
+  flex-direction: column;
+}
+#center {
+  display: flex;
+  justify-content: center;
+}
+
+#column {
+  flex-direction: column;
+}
+
+#google img {
+  max-width: 272px;
+  max-height: 92px;
+  width: 272px;
+  height: 92px;
+}
+
+#search {
+  display: flex;
+  flex-direction: row;
+}
+
+#loupe img {
+  max-height: 20px;
+  max-width: 20px;
+  height: 20px;
+  width: 20px;
+}
+
+#boutons {
+  display: flex;
+  justify-content: center;
 }
 
 
-header {
-  background-color: rgb(32, 33, 36);
+
+footer {
+  background-color: rgb(22, 23, 23);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+  
+#pays {
+  padding-left: 100px;
+}
+
+#eco {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#bottom {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  
+}
+
+#bottom-g {
+  justify-content: start;
+}
+
+#bottom-d {
+  justify-content: end;
 }
 
