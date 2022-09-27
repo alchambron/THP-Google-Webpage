@@ -24,8 +24,29 @@ header {
   flex-direction: row;
   justify-content: end;
   align-items: center;
-  margin-top: auto;
 }
+
+#icon-top a {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#appg img{
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#pp img{
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
 
 #pp img {  
   max-height: 48px;
@@ -42,10 +63,12 @@ header {
 main {
   display: flex;
   flex-direction: column;
+  /* margin-top: 4em; */
 }
 #center {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 #column {
@@ -84,29 +107,34 @@ footer {
   bottom: 0;
   width: 100%;
 }
-  
-#pays {
-  padding-left: 100px;
+
+footer a {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
+
+#pays {
+  padding-left: 1em;
+}
+
+hr {
+  margin-bottom: 2em;
+}
+ 
 
 #eco {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: 2em;
 }
 
 #bottom {
   display: flex;
-  justify-content: center;
   justify-content: space-between;
-  
-}
-
-#bottom-g {
-  justify-content: start;
-}
-
-#bottom-d {
-  justify-content: end;
+  margin-bottom: 1em;
+  margin-left: 0,5em;
 }
 
